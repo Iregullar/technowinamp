@@ -468,9 +468,7 @@ async def cbcmnds(_, query: CallbackQuery):
 - For download music
 - Müzik indirmek için
 
-• /menu  /settings
-- For open menu settings
-- Menü ayarları için
+
 
 Daha Fazla **@{UPDATE}** !""",
         reply_markup=InlineKeyboardMarkup(
