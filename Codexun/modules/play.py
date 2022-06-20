@@ -246,7 +246,6 @@ async def play(_, message: Message):
                 f"🔴 {ASSNAME} (@{ASSUSERNAME}) sohbetinizde yasaklandı **{message.chat.title}**\n\nMüziği kullanmak için önce banını kaldırın"
             )
             return
-    
     except UserNotParticipant:
         if message.chat.username:
             try:
